@@ -1,8 +1,9 @@
 # cookiecutter-personal
 
-Link para crear proyecto con plantilla de cookiecutter:
+Link to create a project a project with cookiecutter template:
 https://github.com/alejonaranjo83/cookiecutter-personal
 
 
-Para usarla, simplemente desde la Terminal se va a la carpeta donde se quiere crear el proyecto y se escribe:
+In order to use it, you just need to go the folder from the Terminal in which you want to create your project and write down this:
+
 cookiecutter + link

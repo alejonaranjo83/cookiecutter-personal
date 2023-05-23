@@ -1,8 +1,9 @@
 {
-    "project_title": "Define el título del proyecto",
+    "project_title": "Define a title for the project",
     "project_slug": "{{ cookiecutter.project_title.lower().replace(\" \", \"_\").replace(\"-\", \"_\") }}",
-    "project_description": "Describe el proyecto que crearás.",
-    "project_author_name": "Ingresa tu nombre",
+    "project_description": "Describe the project you're about to create",
+    "project_author_name": "Enter your name",
+    "project_author_email": "Enter your email",
     "project_packages": ["All, Minimal"],
     "python_version": "3.11.3"
 }

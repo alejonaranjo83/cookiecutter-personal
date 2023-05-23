@@ -1,4 +1,4 @@
-# En este archivo defino procesos que quiero que se ejecuten después de que se haber creado un proyecto
+# This file defines processes that I want to execute once the project has been created
 
 
 import os
@@ -10,8 +10,8 @@ RESET_ALL = "\x1b[0m"
 print(f"{MESSAGE_COLOR}Casi listos!")
 print(f"Inicializando un repositorio de git...{RESET_ALL}")
 
-subprocess.call(['git', 'init']) #Crea repositorio
-subprocess.call(['git', 'add', '*']) #Añade todos los archivos a stagging
-subprocess.call(['git', 'commit', '-m', 'Initial commit']) #Crea el primer commit
+subprocess.call(['git', 'init']) #Create a repository
+subprocess.call(['git', 'add', '*']) # Add files to stagging
+subprocess.call(['git', 'commit', '-m', 'Initial commit']) #Create the first commit
 
-print(f"{MESSAGE_COLOR}Estás listo para empezar tu proyecto!{RESET_ALL}")
+print(f"{MESSAGE_COLOR}You're ready to start your project!{RESET_ALL}")

@@ -1,4 +1,4 @@
-# En este archivo defino procesos que quiero que se ejecuten antes de que se esté creando un proyecto
+# This file defines processes that I want to execute before the project is created
 
 
 import os
@@ -15,5 +15,5 @@ if project_slug.startswith("x"):
 
    sys.exit(1)
 
-print(f"{MESSAGE_COLOR}Has creado un proyecto a través de una plantilla de cookiecutter!")
-print(f"Este se encuentra en la ruta: { os.getcwd() }{RESET_ALL}")
+print(f"{MESSAGE_COLOR}You've created a project through a cookiecutter template!")
+print(f"This is the route in which the project is contained: { os.getcwd() }{RESET_ALL}")
