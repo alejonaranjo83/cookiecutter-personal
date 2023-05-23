@@ -7,8 +7,8 @@ import subprocess
 MESSAGE_COLOR = "\x1b[34m"
 RESET_ALL = "\x1b[0m"
 
-print(f"{MESSAGE_COLOR}Casi listos!")
-print(f"Inicializando un repositorio de git...{RESET_ALL}")
+print(f"{MESSAGE_COLOR}Almost ready!")
+print(f"Initializing a git repository...{RESET_ALL}")
 
 subprocess.call(['git', 'init']) #Create a repository
 subprocess.call(['git', 'add', '*']) # Add files to stagging
