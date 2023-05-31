@@ -10,6 +10,19 @@ dependencies:
   - jupyter
   - jupyterlab
   - pathlib
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - plotly
+  - pyprojroot
+  - python=3.11.3
+  - seaborn
+  - networkx
+  - scipy
+  - igraph
+  - pyvis
+  - graph-tool
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
