@@ -5,7 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  {% if cookiecutter.project_packages == "All" -%}
+  #{% if cookiecutter.project_packages == "All" -%}
   - fs
   - jupyter
   - jupyterlab
@@ -23,13 +23,13 @@ dependencies:
   - igraph
   - pyvis
   - graph-tool
-  {% endif -%}
-  - pip
-  {% if cookiecutter.project_packages == "All" -%}
-  - pyprojroot
-  {% endif -%}
-  - python={{ cookiecutter.python_version }}
-  - pip:
-    {% if cookiecutter.project_packages == "All" -%}
-    - pyhere
-    {% endif -%}
+  #{% endif -%}
+  #- pip
+  #{% if cookiecutter.project_packages == "All" -%}
+  #- pyprojroot
+  #{% endif -%}
+  #- python={{ cookiecutter.python_version }}
+  #- pip:
+  #  {% if cookiecutter.project_packages == "All" -%}
+  #  - pyhere
+  #  {% endif -%}
